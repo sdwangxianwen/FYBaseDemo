@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  FYBase
+//
+//  Created by wang on 2020/4/16.
+//  Copyright © 2020 wang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//MARK:类
+#import "UIView+FYExtension.h"
+#import "UIColor+FYColor.h"
+#import "UILabel+FY.h"
+#import "UIImage+Tint.h"
+#import "FYBaseViewController+FY.h"
+
+//MARK:宏
+#import "Tool/FYParm.h"
+
+#import "Base/FYBaseViewController.h"
+#import "Base/FYTranslucentNavigationBar.h"
+
+#endif /* PrefixHeader_pch */
