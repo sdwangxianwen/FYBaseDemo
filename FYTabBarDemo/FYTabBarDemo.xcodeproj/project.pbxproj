@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E38CD4A2449919F00666B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD492449919F00666B70 /* AppDelegate.m */; };
+		1E38CD4D2449919F00666B70 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD4C2449919F00666B70 /* SceneDelegate.m */; };
+		1E38CD502449919F00666B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD4F2449919F00666B70 /* ViewController.m */; };
+		1E38CD532449919F00666B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E38CD512449919F00666B70 /* Main.storyboard */; };
+		1E38CD55244991A100666B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E38CD54244991A100666B70 /* Assets.xcassets */; };
+		1E38CD58244991A100666B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E38CD56244991A100666B70 /* LaunchScreen.storyboard */; };
+		1E38CD5B244991A100666B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD5A244991A100666B70 /* main.m */; };
+		1E38CD65244991A200666B70 /* FYTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD64244991A200666B70 /* FYTabBarDemoTests.m */; };
+		1E38CD70244991A200666B70 /* FYTabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD6F244991A200666B70 /* FYTabBarDemoUITests.m */; };
+		1E38CD7F2449920800666B70 /* FYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD7E2449920800666B70 /* FYTabBar.m */; };
+		1E38CD82244996B000666B70 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CD81244996B000666B70 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E38CD61244991A200666B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E38CD3D2449919F00666B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E38CD442449919F00666B70;
+			remoteInfo = FYTabBarDemo;
+		};
+		1E38CD6C244991A200666B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E38CD3D2449919F00666B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E38CD442449919F00666B70;
+			remoteInfo = FYTabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E38CD452449919F00666B70 /* FYTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E38CD482449919F00666B70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E38CD492449919F00666B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E38CD4B2449919F00666B70 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1E38CD4C2449919F00666B70 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1E38CD4E2449919F00666B70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E38CD4F2449919F00666B70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E38CD522449919F00666B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E38CD54244991A100666B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E38CD57244991A100666B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E38CD59244991A100666B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E38CD5A244991A100666B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E38CD60244991A200666B70 /* FYTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E38CD64244991A200666B70 /* FYTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYTabBarDemoTests.m; sourceTree = "<group>"; };
+		1E38CD66244991A200666B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E38CD6B244991A200666B70 /* FYTabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYTabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E38CD6F244991A200666B70 /* FYTabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYTabBarDemoUITests.m; sourceTree = "<group>"; };
+		1E38CD71244991A200666B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E38CD7D2449920800666B70 /* FYTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYTabBar.h; sourceTree = "<group>"; };
+		1E38CD7E2449920800666B70 /* FYTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYTabBar.m; sourceTree = "<group>"; };
+		1E38CD80244996B000666B70 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		1E38CD81244996B000666B70 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E38CD422449919F00666B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E38CD5D244991A200666B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E38CD68244991A200666B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E38CD3C2449919F00666B70 = {
+			isa = PBXGroup;
+			children = (
+				1E38CD472449919F00666B70 /* FYTabBarDemo */,
+				1E38CD63244991A200666B70 /* FYTabBarDemoTests */,
+				1E38CD6E244991A200666B70 /* FYTabBarDemoUITests */,
+				1E38CD462449919F00666B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E38CD462449919F00666B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E38CD452449919F00666B70 /* FYTabBarDemo.app */,
+				1E38CD60244991A200666B70 /* FYTabBarDemoTests.xctest */,
+				1E38CD6B244991A200666B70 /* FYTabBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E38CD472449919F00666B70 /* FYTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E38CD482449919F00666B70 /* AppDelegate.h */,
+				1E38CD492449919F00666B70 /* AppDelegate.m */,
+				1E38CD4B2449919F00666B70 /* SceneDelegate.h */,
+				1E38CD4C2449919F00666B70 /* SceneDelegate.m */,
+				1E38CD4E2449919F00666B70 /* ViewController.h */,
+				1E38CD4F2449919F00666B70 /* ViewController.m */,
+				1E38CD80244996B000666B70 /* DemoViewController.h */,
+				1E38CD81244996B000666B70 /* DemoViewController.m */,
+				1E38CD7D2449920800666B70 /* FYTabBar.h */,
+				1E38CD7E2449920800666B70 /* FYTabBar.m */,
+				1E38CD512449919F00666B70 /* Main.storyboard */,
+				1E38CD54244991A100666B70 /* Assets.xcassets */,
+				1E38CD56244991A100666B70 /* LaunchScreen.storyboard */,
+				1E38CD59244991A100666B70 /* Info.plist */,
+				1E38CD5A244991A100666B70 /* main.m */,
+			);
+			path = FYTabBarDemo;
+			sourceTree = "<group>";
+		};
+		1E38CD63244991A200666B70 /* FYTabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E38CD64244991A200666B70 /* FYTabBarDemoTests.m */,
+				1E38CD66244991A200666B70 /* Info.plist */,
+			);
+			path = FYTabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		1E38CD6E244991A200666B70 /* FYTabBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E38CD6F244991A200666B70 /* FYTabBarDemoUITests.m */,
+				1E38CD71244991A200666B70 /* Info.plist */,
+			);
+			path = FYTabBarDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E38CD442449919F00666B70 /* FYTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E38CD74244991A200666B70 /* Build configuration list for PBXNativeTarget "FYTabBarDemo" */;
+			buildPhases = (
+				1E38CD412449919F00666B70 /* Sources */,
+				1E38CD422449919F00666B70 /* Frameworks */,
+				1E38CD432449919F00666B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYTabBarDemo;
+			productName = FYTabBarDemo;
+			productReference = 1E38CD452449919F00666B70 /* FYTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E38CD5F244991A200666B70 /* FYTabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E38CD77244991A200666B70 /* Build configuration list for PBXNativeTarget "FYTabBarDemoTests" */;
+			buildPhases = (
+				1E38CD5C244991A200666B70 /* Sources */,
+				1E38CD5D244991A200666B70 /* Frameworks */,
+				1E38CD5E244991A200666B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E38CD62244991A200666B70 /* PBXTargetDependency */,
+			);
+			name = FYTabBarDemoTests;
+			productName = FYTabBarDemoTests;
+			productReference = 1E38CD60244991A200666B70 /* FYTabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E38CD6A244991A200666B70 /* FYTabBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E38CD7A244991A200666B70 /* Build configuration list for PBXNativeTarget "FYTabBarDemoUITests" */;
+			buildPhases = (
+				1E38CD67244991A200666B70 /* Sources */,
+				1E38CD68244991A200666B70 /* Frameworks */,
+				1E38CD69244991A200666B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E38CD6D244991A200666B70 /* PBXTargetDependency */,
+			);
+			name = FYTabBarDemoUITests;
+			productName = FYTabBarDemoUITests;
+			productReference = 1E38CD6B244991A200666B70 /* FYTabBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E38CD3D2449919F00666B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					1E38CD442449919F00666B70 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					1E38CD5F244991A200666B70 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 1E38CD442449919F00666B70;
+					};
+					1E38CD6A244991A200666B70 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 1E38CD442449919F00666B70;
+					};
+				};
+			};
+			buildConfigurationList = 1E38CD402449919F00666B70 /* Build configuration list for PBXProject "FYTabBarDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E38CD3C2449919F00666B70;
+			productRefGroup = 1E38CD462449919F00666B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E38CD442449919F00666B70 /* FYTabBarDemo */,
+				1E38CD5F244991A200666B70 /* FYTabBarDemoTests */,
+				1E38CD6A244991A200666B70 /* FYTabBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E38CD432449919F00666B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E38CD58244991A100666B70 /* LaunchScreen.storyboard in Resources */,
+				1E38CD55244991A100666B70 /* Assets.xcassets in Resources */,
+				1E38CD532449919F00666B70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E38CD5E244991A200666B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E38CD69244991A200666B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E38CD412449919F00666B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E38CD502449919F00666B70 /* ViewController.m in Sources */,
+				1E38CD4A2449919F00666B70 /* AppDelegate.m in Sources */,
+				1E38CD5B244991A100666B70 /* main.m in Sources */,
+				1E38CD82244996B000666B70 /* DemoViewController.m in Sources */,
+				1E38CD4D2449919F00666B70 /* SceneDelegate.m in Sources */,
+				1E38CD7F2449920800666B70 /* FYTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E38CD5C244991A200666B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E38CD65244991A200666B70 /* FYTabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E38CD67244991A200666B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E38CD70244991A200666B70 /* FYTabBarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E38CD62244991A200666B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E38CD442449919F00666B70 /* FYTabBarDemo */;
+			targetProxy = 1E38CD61244991A200666B70 /* PBXContainerItemProxy */;
+		};
+		1E38CD6D244991A200666B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E38CD442449919F00666B70 /* FYTabBarDemo */;
+			targetProxy = 1E38CD6C244991A200666B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E38CD512449919F00666B70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E38CD522449919F00666B70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E38CD56244991A100666B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E38CD57244991A100666B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E38CD72244991A200666B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E38CD73244991A200666B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E38CD75244991A200666B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E38CD76244991A200666B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E38CD78244991A200666B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYTabBarDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYTabBarDemo.app/FYTabBarDemo";
+			};
+			name = Debug;
+		};
+		1E38CD79244991A200666B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYTabBarDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYTabBarDemo.app/FYTabBarDemo";
+			};
+			name = Release;
+		};
+		1E38CD7B244991A200666B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYTabBarDemo;
+			};
+			name = Debug;
+		};
+		1E38CD7C244991A200666B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYTabBarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E38CD402449919F00666B70 /* Build configuration list for PBXProject "FYTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E38CD72244991A200666B70 /* Debug */,
+				1E38CD73244991A200666B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E38CD74244991A200666B70 /* Build configuration list for PBXNativeTarget "FYTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E38CD75244991A200666B70 /* Debug */,
+				1E38CD76244991A200666B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E38CD77244991A200666B70 /* Build configuration list for PBXNativeTarget "FYTabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E38CD78244991A200666B70 /* Debug */,
+				1E38CD79244991A200666B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E38CD7A244991A200666B70 /* Build configuration list for PBXNativeTarget "FYTabBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E38CD7B244991A200666B70 /* Debug */,
+				1E38CD7C244991A200666B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E38CD3D2449919F00666B70 /* Project object */;
+}

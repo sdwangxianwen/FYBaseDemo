@@ -103,7 +103,7 @@ typedef NS_ENUM(NSInteger, FYViewControllerNavigationColorType) {
 //
 // 将button添加到右侧的NavigationBar上, 允许用户定制Button的样式，事件
 //
-- (void) setRightNavigationButton: (NaviButton*) button;
+-(void) setRightNavigationButton: (NaviButton*) button;
 
 - (void) setLeftNavigationButton: (NaviButton*) button;
 

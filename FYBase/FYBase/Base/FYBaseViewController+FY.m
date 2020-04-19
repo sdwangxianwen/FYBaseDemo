@@ -375,7 +375,11 @@ CGRect SNNavigationFrame() {
     button.frame = CGRectMake(0, 0, 50, 35);
     
     [button setImage: [UIImage imageNamed:@"back"] forState:UIControlStateNormal];
-    [button setImage: [[UIImage imageNamed:@"back"] imageWithTintColor: [UIColor colorWithHexString:@"0x323232"]] forState:UIControlStateHighlighted];
+    if (@available(iOS 13.0, *)) {
+        [button setImage: [[UIImage imageNamed:@"back"] imageWithTintColor: [UIColor colorWithHexString:@"0x323232"]] forState:UIControlStateHighlighted];
+    } else {
+        // Fallback on earlier versions
+    }
     // 在设置返回按钮时，距左有10的间距，图片32*32因此要几乎顶到头 （50-32）*.5 = 9
     [button setImageEdgeInsets:UIEdgeInsetsMake(0, -9, 0, 0)];
     //    [button setBackgroundImage: [BGResource loadStretch:@"navi_btn_selected.png" capWidth:13 capHeight:0] forState: UIControlStateHighlighted];

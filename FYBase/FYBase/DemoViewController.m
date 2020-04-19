@@ -25,7 +25,7 @@
 //                  action: @selector(onShareBtnPressed:)
 //        forControlEvents: UIControlEventTouchUpInside];
     [self setRightNavigationButton: sharedbtn];
-   
+    self.title = @"ceshi";
     
 }
 - (BOOL)canGesturePoped {
@@ -38,7 +38,7 @@
 }
 
 -(FYViewControllerNavigationColorType)navigationBarColorType {
-    return  FYViewControllerNavigationColorBlue;
+    return  FYViewControllerNavigationColorClear;
 }
 
 -(FYViewControllerBackViewAnimateType)backViewColorType {
